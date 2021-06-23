@@ -1,0 +1,18 @@
+.button-wrapper {
+	display: flex;
+	align-items: flex-start;
+	width: 80%;
+	margin: 4rem auto;
+
+	button {
+		font-size: 1rem;
+		padding: 0.5rem 2.5rem;
+		box-shadow: 1px 2px 8px $darkBlue;
+		background-color: $white;
+		color: $darkBlue;
+		outline: none;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+}

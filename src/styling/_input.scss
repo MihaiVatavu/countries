@@ -1,0 +1,40 @@
+.inputContainer {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem auto;
+
+	input {
+		padding: 20px 50px;
+		font-family: $font;
+		font-size: 1.2rem;
+		border-radius: 5px;
+		border: none;
+		box-shadow: 1px 1px 5px $darkGrey;
+		outline: none;
+		background-color: $white;
+	}
+
+	.region {
+		right: 10%;
+	}
+
+	select,
+	option {
+		padding: 20px;
+		font-size: 1.2rem;
+		border-radius: 5px;
+		border: none;
+		outline: none;
+		box-shadow: 1px 1px 5px $darkGrey;
+	}
+
+	@media screen and(max-width:1023px) {
+		flex-direction: column;
+
+		input,
+		.region {
+			margin: 1rem auto;
+		}
+	}
+}

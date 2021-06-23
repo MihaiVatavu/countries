@@ -1,0 +1,16 @@
+@import "color&fonts";
+@import "bar";
+@import "input";
+@import "grid";
+@import "individualCountry";
+@import "backbutton";
+html,
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	box-sizing: border-box;
+	font-family: $font;
+	color: $veryDarkBlue;
+	background-color: $veryLightGrey;
+}
